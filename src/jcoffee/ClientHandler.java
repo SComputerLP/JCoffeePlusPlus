@@ -46,6 +46,7 @@ public class ClientHandler implements Runnable {
                         
                         Main.isMakingCoffee = true;
                         //Kaffee-mach-Methoden hier schreiben! (am Raspi)
+                        Commander.makeCoffee();
                         Main.isMakingCoffee = false;
                     } else {
                         writer.write("Es wird bereits ein Kaffee gemacht!\n");
