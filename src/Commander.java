@@ -1,7 +1,6 @@
-package jcoffee;
-
 /**
  * jCorn Development
+ * 
  * @author Julian Maierl
  */
 public class Commander {
